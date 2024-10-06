@@ -1,11 +1,24 @@
+package.json
+
 {
-  "name": "myLocal_studyIn",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
+
+
+package-lock.json
+
+{
+  "name": "StudyIn",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "devDependencies": {
-
         "nodemon": "^3.1.7"
       }
     },
@@ -188,7 +201,6 @@
         "node": ">=8"
       }
     },
-
     "node_modules/is-extglob": {
       "version": "2.1.1",
       "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz",
