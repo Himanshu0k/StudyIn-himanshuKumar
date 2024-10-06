@@ -1,8 +1,10 @@
 {
   "devDependencies": {
+
     "husky": "^9.1.6"
   },
   "scripts": {
     "lint": "echo lint"
+
   }
 }
