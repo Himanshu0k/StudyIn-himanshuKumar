@@ -1,3 +1,16 @@
+package.json
+
+{
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
+
+
+package-lock.json
 
 {
   "name": "StudyIn",
